@@ -1,12 +1,20 @@
-image: node
+image: node:latest
+
+cache:
+  paths:
+  - node_modules/
+
+before_script:
+  - npm install
 
 pages:
   script:
-  - npm install
   - npm run-script build
+  - rm -rf public
+  - mv build public
   artifacts:
     paths:
-    - build
+    - public
   only:
   - master
 
