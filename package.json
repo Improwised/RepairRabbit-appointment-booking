@@ -29,5 +29,6 @@
   },
   "devDependencies": {
     "eslint": "^5.4.0"
-  }
+  },
+  "homepage": "https://repairrabbit.gitlab.io/appointment-booking"
 }
