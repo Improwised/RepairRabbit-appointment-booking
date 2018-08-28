@@ -1,14 +1,13 @@
 image: node:latest
 
-cache:
-  paths:
-  - node_modules/
-
-before_script:
-  - npm install
-
 pages:
+  cache:
+    paths:
+    - node_modules/
+
+  stage: deploy
   script:
+  - npm install
   - npm run build
   - rm -rf public
   - mv build public
