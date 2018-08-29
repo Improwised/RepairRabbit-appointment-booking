@@ -58,7 +58,7 @@ class EnterImeiNo extends Component {
           <h2>Enter IMEI number</h2>
         </div>
         <Alert {...this.state.alert} />
-        <form className="fg1 df fdc" onSubmit={this.handleFormSubmit}>
+        <form className="df fdc" onSubmit={this.handleFormSubmit}>
           <div className="inputs">
             <input
               type="number"

@@ -88,7 +88,7 @@ class SelectDevice extends Component {
           <h2>Select Device</h2>
         </div>
         <Alert {...this.state.alert} />
-        <form className="fg1 df fdc" onSubmit={this.handleFormSubmit}>
+        <form className="df fdc" onSubmit={this.handleFormSubmit}>
           <div className="inputs">{this.renderDevices()}</div>
           <div className="actions">
             <button type="submit" className="btn next">

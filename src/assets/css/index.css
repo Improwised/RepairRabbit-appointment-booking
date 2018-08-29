@@ -242,17 +242,17 @@ input[type='text'] {
   height: 50px;
   display: flex;
   margin: 15px 0;
-  color: #909090;
+  color: #2b2b2b;
   font-size: 20px;
   cursor: pointer;
   padding: 0px 15px;
   border-radius: 3px;
   align-items: center;
   font-weight: normal;
-  border: 2px solid #e0e0e0;
-  transform: scale(0.98);
-  background-color: white;
-  transition: 0.1s all linear;
+  transform: scale(0.99);
+  background-color: #ededed;
+  border: 2px solid #ededed;
+  transition: 0.09s all linear;
 }
 
 .right-side.a_a .radio input[type='radio']:focus + label,
@@ -262,9 +262,9 @@ input[type='text'] {
 
 .right-side.a_a .radio input[type='radio']:checked + label,
 .right-side.a_a .checkbox input[type='checkbox']:checked + label {
+  color: #2b2b2b;
   transform: scale(1);
   border: 2px solid #00cdc1;
-  color: #2b2b2b;
   background-color: #00cdc1;
 }
 
@@ -374,6 +374,9 @@ input[type='text'] {
   .wapper .right-side {
     width: 100%;
     padding: 15px 15px;
+  }
+  .wapper .right-side.a_a h1 {
+    padding-bottom: 15px;
   }
   .loadder {
     left: 0;

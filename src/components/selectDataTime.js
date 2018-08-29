@@ -146,7 +146,7 @@ class SelectDataTime extends Component {
           <h2>Select Date & time</h2>
         </div>
         <Alert {...this.state.alert} />
-        <form className="fg1 df fdc" onSubmit={this.handleFormSubmit}>
+        <form className="df fdc" onSubmit={this.handleFormSubmit}>
           <div className="inputs">
             <h4>Select Date</h4>
             <br />

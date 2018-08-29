@@ -87,7 +87,7 @@ class selectYourRepair extends Component {
           <h2>Select Your Repairs</h2>
         </div>
         <Alert {...this.state.alert} />
-        <form className="fg1 df fdc" onSubmit={this.handleFormSubmit}>
+        <form className="df fdc" onSubmit={this.handleFormSubmit}>
           <div className="inputs">
             <div>{this.renderDefects()}</div>
           </div>

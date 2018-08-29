@@ -152,7 +152,7 @@ class Auth extends Component {
           </a>
         </div>
         <Alert {...this.state.alert} />
-        <form className="fg1 df fdc" onSubmit={this.handleFormSubmit}>
+        <form className="df fdc" onSubmit={this.handleFormSubmit}>
           <div className="inputs">
             {this.state.isRegister ? (
               <div className="form-group">
