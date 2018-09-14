@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-axios.defaults.baseURL = 'http://37.139.15.5:8000/api/v1';
+axios.defaults.baseURL = 'https://demo.repairrabbit.co/api/v1';
 
 export function getData(url, success, failure) {
   axios
